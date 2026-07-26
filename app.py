@@ -33,7 +33,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ── Load model bundle ──────────────────────────────────────────────────────────
-with open("churn_model_bundle.pkl", "rb") as f:
+with open("churn_model_v2.pkl", "rb") as f:
     bundle = pickle.load(f)
 
 model               = bundle['model']
